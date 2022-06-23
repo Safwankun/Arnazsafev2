@@ -53,7 +53,7 @@ By : ${('ARNAZX#9611')}
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalkRainbow(`\r[ ${moment().format('HH:mm:ss')} ] Auth Eror !`));
+      console.log(chalk.cyan(`\r[ ${moment().format('HH:mm:ss')} ] Auth Eror !`));
 
     } else if (result.includes('User')) {
 
@@ -63,7 +63,7 @@ By : ${('ARNAZX#9611')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalkRainbow(`\r
+      console.log(chalk.purple(`\r
 -  [${moment().format('HH:mm:ss')}]  -
 >  ${(`ID By Arnazx : ${country}`)}
 >  ${(`USER By Arnazx : ${username}`)}  
