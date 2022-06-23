@@ -45,7 +45,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 By : ${('ARNAZX#9611')}
 `));
 
-  const auth = rs.question(chalkRainbow('Token : '));
+  const auth = rs.question(chalk.green('Token : '));
   console.log('');
 
   while (true) {
