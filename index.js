@@ -65,11 +65,11 @@ By : ${('ARNAZX#9611')}
 
       console.log(chalkRainbow(`\r
 -  [${moment().format('HH:mm:ss')}]  -
->  ${(`Negara By Arnazx : ${country}`)}
->  ${(`Nama By Arnazx : ${username}`)}  
->  ${(`Piala By Arnazx : ${trophy}`)}  
->  ${(`Mahkota By Arnazx : ${crown}`)}
->  ${(`Status : Success !`)}`));
+>  ${(`ID By Arnazx : ${country}`)}
+>  ${(`USER By Arnazx : ${username}`)}  
+>  ${(`TROPHY By Arnazx : ${trophy}`)}  
+>  ${(`CROWN By Arnazx : ${crown}`)}
+>  ${(`STATUS : Success !!`)}`));
       await sleep(7000);
 
     } else if (result == 'BANNED') {
