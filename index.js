@@ -63,7 +63,7 @@ By : ${('ARNAZX#9611')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.purple(`\r
+      console.log(chalk.magenta(`\r
 -  [${moment().format('HH:mm:ss')}]  -
 >  ${(`ID By Arnazx : ${country}`)}
 >  ${(`USER By Arnazx : ${username}`)}  
@@ -73,7 +73,7 @@ By : ${('ARNAZX#9611')}
       await sleep(7000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Mampus Banned Makanya jangan brutal`));
+      console.log(chalk.bgRed(`Mampus Kena Banned🥴😫 `));
       break;
     }
   }
