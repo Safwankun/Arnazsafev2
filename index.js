@@ -63,7 +63,7 @@ By : ${('R4nneX')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.pink(`\r
+      console.log(chalk.blue(`\r
 -  [${moment().format('HH:mm:ss')}]  -
 >  ${(`ID By R4nneX : ${country}`)}
 >  ${(`USER By R4nneX : ${username}`)}  
