@@ -69,8 +69,8 @@ By : ${('R4nneX')}
 >  ${(`USER By R4nneX : ${username}`)}  
 >  ${(`TROPHY By R4nneX : ${trophy}`)}  
 >  ${(`CROWN By R4nneX : ${crown}`)}
->  ${(`STATUS : Success !!`)}`));
-      await sleep(7000);
+>  ${(`STATUS : Sukses😎👌`)}`));
+      await sleep(6500);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Mampus Kena Banned🥴😫 `));
