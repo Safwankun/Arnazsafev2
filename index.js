@@ -42,10 +42,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
                                                   
                                                                                       
 
-By : ${('ARNAZX#9611')}
+By : ${('R4nneX')}
 `));
 
-  const auth = rs.question(chalkRainbow('Token : '));
+  const auth = rs.question(chalk.cyan('Masuki Auth Mas😘 : '));
   console.log('');
 
   while (true) {
@@ -63,12 +63,12 @@ By : ${('ARNAZX#9611')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalk.magenta(`\r
+      console.log(chalk.pink(`\r
 -  [${moment().format('HH:mm:ss')}]  -
->  ${(`ID By Arnazx : ${country}`)}
->  ${(`USER By Arnazx : ${username}`)}  
->  ${(`TROPHY By Arnazx : ${trophy}`)}  
->  ${(`CROWN By Arnazx : ${crown}`)}
+>  ${(`ID By R4nneX : ${country}`)}
+>  ${(`USER By R4nneX : ${username}`)}  
+>  ${(`TROPHY By R4nneX : ${trophy}`)}  
+>  ${(`CROWN By R4nneX : ${crown}`)}
 >  ${(`STATUS : Success !!`)}`));
       await sleep(7000);
 
