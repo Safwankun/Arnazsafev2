@@ -28,7 +28,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chal.green(`
+  console.log(chalk.green(`
  ____           ____  __ __                  _  __
    / __ )__  __   / __ \/ // / ____  ____  ___ | |/ /
   / __  / / / /  / /_/ / // /_/ __ \/ __ \/ _ \|   /
